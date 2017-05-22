@@ -1,1 +1,46 @@
  /*Define Your Custom CSS*/
+ .xavoc-mlm-search-product .xepan-commerce-search-tool .atk-cell{
+ 	float: left;
+ }
+
+ .xavoc-mlm-search-product .atk-form-field .atk-input-combo .atk-jackscrew{
+ 	width: 80%;
+ 	float: left;
+ }
+ .xavoc-mlm-search-product .atk-form-row-line{
+ 	width: 100%;
+ }
+
+ .xavoc-mlm-search-product input{
+ 	width: 100%;
+ }
+
+ .header-section-top{
+ 	background: #f7f7f7 none repeat scroll 0 0;
+    border-bottom: 1px solid #e9e8e8;
+    height: 26px;
+}
+
+
+.middle-link{
+	display: inline-table; list-style: outside none none;
+}
+.nav-link > a {
+    color: #5a5a5a;
+    margin: 0 7px;
+    padding: 0;
+}
+.nav-link {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.promotional-links .middle-link li.nav-link + li.nav-link::before {
+    color: #000;
+    content: "|";
+    display: inline-block;
+    font-size: 10pt;
+    font-weight: 400;
+    margin-left: 1px;
+    text-decoration: none;
+}
