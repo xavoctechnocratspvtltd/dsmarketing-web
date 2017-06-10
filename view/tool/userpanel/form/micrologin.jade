@@ -1,0 +1,89 @@
+div(class="xepan-login-panel")
+	{login_wrapper}
+	a(href="{$login_url}") Login
+	{/}
+
+	{logout_wrapper}
+	//- .small {$name} &nbsp;
+	//- 	a(href="{$logout_url}") logout
+	ul(role='menu')
+		li(style="list-style: none")
+			a(href='#') 
+				span.mlm-login-username {$username}
+		li.dropdown(style="list-style: none")
+			a.dropdown-toggle(href='#', data-toggle='dropdown')
+				span My Account
+				span.caret
+			div.mlm-login-submenu				
+				ul.dropdown-menu
+					li(style="padding: 2px; border-bottom: 1px solid whitesmoke")
+						a(href="?page=member-account" style="text-decoration:none;" title="View Your Account")  
+							//- i(style="width: auto; max-width: 100%; background-image: url('image/icon/print_on_click_my_account_icon.png'); background-repeat: no-repeat; background-position: right center; color: rgb(0, 0, 0);")
+							i.glyphicon.glyphicon-user.pull-right(style="margin-top: 3px")
+							|Manage Your Account
+					li(style="padding: 2px; border-bottom: 1px solid whitesmoke")
+						a(href="{$logout_url}")
+							i.glyphicon.glyphicon-log-out.pull-right(style="margin-top: 3px")
+							|Logout
+	
+	{/}
+style.
+	.xepan-login-panel a {
+		color:#000;
+	}
+	.mlm-login-username{
+		display: block;
+		font-size: 14px;
+		font-weight: 700;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		width: 120px;
+	}
+	.mlm-login-submenu::before{
+		border-color:rgba(204, 204, 204, 0) rgba(204, 204, 204, 0) #ccc;
+		border-width:9px;
+		margin-left:-9px;
+	}
+
+
+	.mlm-login-submenu::after, .mlm-login-submenu::before {
+	    border: medium solid transparent;
+	    bottom: 100%;
+	    content: " ";
+	    height: 0;
+	    left: 24%;
+	    pointer-events: none;
+	    position: absolute;
+	    width: 0;
+	}
+	.mlm-login-submenu::before{
+	    background-position: -192px 0;
+	    height: 13px;
+	    width: 110px;
+	}
+	.mlm-login-submenu .ddl-nub::after {
+	    border-color: rgba(249, 249, 249, 0) rgba(249, 249, 249, 0) #f9f9f9;
+	    border-width: 8px;
+	    margin-left: -8px;
+	}
+	.mlm-login-submenu .ddl-nub::after, .mlm-login-submenu .ddl-nub::before {
+	    border: medium solid transparent;
+	    bottom: 100%;
+	    content: " ";
+	    height: 0;
+	    left: 24%;
+	    pointer-events: none;
+	    position: absolute;
+	    width: 0;
+	}
+	.mlm-login-submenu .ddl-nub {
+	    background-color: #f9f9f9;
+	    border: 1px solid #ccc;
+	    display: none;
+	    padding: 1.5em 2em;
+	    position: absolute;
+	    top: 3.75em;
+	    white-space: nowrap;
+	    z-index: 200;
+	}
