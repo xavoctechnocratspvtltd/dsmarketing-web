@@ -301,3 +301,38 @@
     box-shadow: 0 12px 20px -10px rgba(156, 39, 176, 0.28), 0 4px 20px 0 rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(156, 39, 176, 0.2);    
 }
 
+/*tabs css*/
+.ds-distributor-body .atk-tabs.ui-tabs{
+    border: 0px;
+}
+.ds-distributor-body ul.ui-tabs-nav{
+    /*orange*/
+    box-shadow:0 12px 20px -10px rgba(255, 152, 0, 0.28), 0 4px 20px 0 rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(255, 152, 0, 0.2);
+    background:rgba(0, 0, 0, 0) linear-gradient(60deg, #ffa726, #fb8c00) repeat scroll 0 0;
+    border: 0px;
+    /*blue*/
+    background:/*rgba(0, 0, 0, 0) linear-gradient(60deg, #26c6da, #00acc1) repeat scroll 0 0;
+    box-shadow:*/0 12px 20px -10px rgba(0, 188, 212, 0.28), 0 4px 20px 0 rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(0, 188, 212, 0.2);
+    padding:10px;
+}
+.ds-distributor-body li.ui-state-default{
+    padding:5px 10px;
+    background: transparent !important;
+    border: 0px;
+}
+
+.ds-distributor-body li.ui-state-default a{
+    color: white;
+}
+.ds-distributor-body li.ui-tabs-active.ui-state-active{
+    background: #f0f0f0 !important;
+}
+
+.ds-distributor-body li.ui-tabs-active.ui-state-active > a{
+    color: black;
+}
+
+.ds-distributor-body button{
+    box-shadow: 0 2px 2px 0 rgba(156, 39, 176, 0.14), 0 3px 1px -2px rgba(156, 39, 176, 0.2), 0 1px 5px 0 rgba(156, 39, 176, 0.12);
+    margin-top:10px;
+}
