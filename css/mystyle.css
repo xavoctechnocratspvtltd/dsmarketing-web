@@ -1,35 +1,37 @@
  /*Define Your Custom CSS*/
  .xavoc-mlm-search-product .xepan-commerce-search-tool .atk-cell{
- 	float: left;
+    float: left;
  }
 
  .xavoc-mlm-search-product .atk-form-field .atk-input-combo .atk-jackscrew{
- 	width: 80%;
- 	float: left;
+    width: 80%;
+    float: left;
  }
  .xavoc-mlm-search-product .atk-form-row-line{
- 	width: 100%;
+    width: 100%;
  }
 
  .xavoc-mlm-search-product input{
- 	width: 100%;
+    width: 100%;
  }
 
  .header-section-top{
- 	background: #f7f7f7 none repeat scroll 0 0;
+    background: #f7f7f7 none repeat scroll 0 0;
     border-bottom: 1px solid #e9e8e8;
     height: 26px;
 }
 
 
 .middle-link{
-	display: inline-table; list-style: outside none none;
+    display: inline-table; list-style: outside none none;
 }
+
 .nav-link > a {
     color: #5a5a5a;
     margin: 0 7px;
     padding: 0;
 }
+
 .nav-link {
     display: inline-block;
     overflow: hidden;
@@ -87,3 +89,120 @@
     background-color: #f5f5f5;
 }
 /*end */
+
+
+.ds-form input,.ds-form select,.ds-form textarea{
+    width:100%;
+    /*padding:2px;*/
+}
+/*.ds-form textarea{
+    height: 100px;
+}*/
+
+/*.centered-form .panel{
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
+}*/
+
+.atk-effect-danger{
+    color:red;
+}
+
+/* header bar css start*/
+.xepan-mlm-header-bar{
+    padding:8px;
+}
+.xepan-mlm-header-bar image{
+    width:75%;
+    padding:7px 0;
+}
+.xepan-mlm-header-bar .xavoc-mlm-search-product {
+    line-height: 30px;
+    padding-top: 30px;
+}
+.xepan-mlm-header-bar .micro-login{
+    padding-top:25px;
+}
+
+.xepan-mlm-header-bar .mlm-cart{
+    padding-top: 40px;
+}
+/* header bar css end*/
+
+.mlm-brand-partner-section{
+    margin: 2% auto;
+}
+.mlm-brand-partner-section .partner-brand-image{
+    height:100px;
+    border: 1px solid #f5f5f5;
+    line-height: 100px;
+    padding:15px;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.mlm-brand-partner-section .partner-brand-image img{
+    display: inline-block;
+}
+
+.ds-bg-orange{
+    background-color: rgb(244, 114, 33);
+    color: #fff;
+}
+.footer-section .footer-title{}
+
+.footer-section .footer-text{
+    text-transform: capitalize;
+    color: #5a5a5a;
+}
+
+.xepan-mlm-page-breadcum-area{
+    position: relative;
+    /*min-height: 300px;*/
+    background-size: 100% auto;
+}
+.bg-opacity-black:before{
+    background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+}
+.bg-opacity-black:before{
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    /*z-index: -1;*/
+}
+
+.breadcrumbs{}
+
+.breadcrumbs-title{
+    color: #fff;
+    font-size: 40px;
+    line-height: 30px;
+    margin-bottom: 0;
+    padding: 150px 0 75px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.breadcrumbs-list{
+     line-height: 1;
+    padding-bottom: 10px;
+}
+.breadcrumbs-list > li {
+    color: #b3b3b3;
+    display: inline-block;
+    padding-right: 5px;
+    position: relative;
+    text-transform: uppercase;
+}
+.breadcrumbs-list > li + li {
+    padding-left: 10px;
+}
+.breadcrumbs-list > li + li::before {
+    content: "";
+    font-family: "fontawesome";
+    left: 0;
+    position: absolute;
+    top: 0;
+}
