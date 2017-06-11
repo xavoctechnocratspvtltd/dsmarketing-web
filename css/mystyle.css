@@ -149,6 +149,9 @@
     background-color: rgb(244, 114, 33);
     color: #fff;
 }
+.ds-bg-gray {
+    background: #f5f5f5 none repeat scroll 0 0;
+}
 .footer-section .footer-title{}
 
 .footer-section .footer-text{
