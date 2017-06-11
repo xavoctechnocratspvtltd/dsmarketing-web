@@ -448,6 +448,9 @@
     width: 5px;
 }
 
+.xepan-mlm-megamenu .navbar{
+    border-radius:0px;
+}
 
 
 .widget_nav_menu ul {
