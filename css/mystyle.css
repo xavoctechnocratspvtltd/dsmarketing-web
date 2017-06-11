@@ -343,3 +343,31 @@
 .ds-distributor-body input{
     width: 100%;
 }
+
+.xepan-mlm-top-header{
+    text-align: center;
+}
+.xepan-mlm-top-header .social-icon{
+    margin: 5px;
+    padding: 8px;
+    width: 8%;
+    cursor: pointer;
+    border-radius:4px;
+}
+.xepan-mlm-top-header .email,.xepan-mlm-top-header .mobile-no{
+    color: #7f7f7f;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.xepan-commerce-tool-cart li{
+    list-style: none;
+}
+
+.xepan-commerce-tool-cart li a{
+    color: #7f7f7f;
+}
+.xepan-commerce-tool-cart li .xepan-cart{
+    color: rgb(244, 114, 33);
+    padding:5px;
+}
