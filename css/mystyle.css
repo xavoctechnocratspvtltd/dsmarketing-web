@@ -539,3 +539,8 @@
     padding: 7px 0;
 }
 /****Footer css End *****/
+
+/*Slider*/
+.nivo-controlNav{
+    display: none;
+}
