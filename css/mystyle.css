@@ -84,11 +84,20 @@
     background-color:white;
     padding:20px;
     box-shadow:20px 20px 20px rgba(0, 0, 0, 0.3);
+    overflow:auto; 
 }
 
 .ds-distributor-body{
     background-color: #f5f5f5;
 }
+
+.ds-kitlist .caption h3{
+    height: 60px;
+}
+/*.ds-kitlist .thumbnail > .img-wrapper{
+    background: #f0f0f0;
+}*/
+
 /*end */
 
 
@@ -337,13 +346,40 @@
 }
 
 .ds-distributor-body button{
+
     box-shadow: 0 2px 2px 0 rgba(156, 39, 176, 0.14), 0 3px 1px -2px rgba(156, 39, 176, 0.2), 0 1px 5px 0 rgba(156, 39, 176, 0.12);
+    /*box-shadow: 0 2px 2px 0 rgba(156, 39, 176, 0.14), 0 3px 1px -2px rgba(156, 39, 176, 0.2), 0 1px 5px 0 rgba(156, 39, 176, 0.12);*/*/
     margin-top:10px;
 }
 
 .ds-distributor-body input{
     width: 100%;
 }
+
+
+.ds-distributor-body .footable-loaded.footable {
+    border-collapse: collapse !important;
+}
+
+.ds-distributor-body .footable-loaded.footable tr > td{
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+
+.ds-kit-paginator {
+    margin-bottom:30px;
+}
+.ds-kit-paginator a{
+    padding: 5px;
+    box-shadow: 0 2px 2px 0 rgba(156, 39, 176, 0.14), 0 3px 1px -2px rgba(156, 39, 176, 0.2), 0 1px 5px 0 rgba(156, 39, 176, 0.12);
+}
+/*.ds-distributor-body thead th,
+.ds-distributor-body tr td
+{
+    text-align: right;
+}*/
 
 .xepan-mlm-top-header{
     text-align: center;
