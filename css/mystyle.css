@@ -607,3 +607,10 @@
     top: 66px;
     width: 0;
 }
+
+.bg-primary .navbar-toggle{
+	border:1px solid #ddd;
+}
+.bg-primary .navbar-toggle span{
+	background-color:#ddd;
+}
