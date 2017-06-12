@@ -614,3 +614,12 @@
 .bg-primary .navbar-toggle span{
 	background-color:#ddd;
 }
+
+.mega-dropdown{
+    border-left: 1px solid transparent;
+    box-shadow: 1px 0px 0px rgba(255, 255, 255, 0.1) inset;
+}
+#bs-example-navbar-collapse-1 .nav li.mega-dropdown:last-child {
+    border-right: 1px solid transparent;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1) inset;
+}
