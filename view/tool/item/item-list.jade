@@ -113,3 +113,13 @@ div(id='{$_name}' class="{$class} row" style="{$style} margin-left:auto;margin-r
 		.xepan-commerce-image-wrapper .xepan-commerce-item-img{
 			max-height:200px;
 		}
+
+script.
+	$(document).ready(function() {
+		var maxHeight = 0;
+		$(".xepan-commerce-item").each(function() {
+			if ($(this).outerHeight() > maxHeight) {
+				maxHeight = $(this).outerHeight();
+			}
+		}).height(maxHeight);
+	}			
