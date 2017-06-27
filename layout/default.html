@@ -162,5 +162,15 @@
 
 
 <script src="js/bootstrap.min.js" style=""></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    var maxHeight = 0;
+    $(".xepan-commerce-item").each(function() {
+      if ($(this).outerHeight() > maxHeight) {
+        maxHeight = $(this).outerHeight();
+      }
+    }).height(maxHeight);
+  });
+</script>
 </body>
 </html>
