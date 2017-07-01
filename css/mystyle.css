@@ -383,7 +383,9 @@
     border-collapse: collapse !important;
 }
 
-.ds-distributor-body .footable-loaded.footable tr > td{
+.ds-distributor-body table tr > td,
+.atk-table table tr > td
+{
     padding: 8px;
     line-height: 1.42857143;
     vertical-align: top;
@@ -641,4 +643,20 @@
 
 .navbar-header span.icon-bar{
     background-color: orange; 
+}
+
+.atk4_grid table{
+    width:100%;
+}
+.ds-button{
+    margin-top:10px; 
+}
+
+.atk-table{
+    margin-top:10px;
+}
+
+.atk-table .atk-box-small{
+    margin-bottom: 20px !important;
+    text-align:right !important;
 }
