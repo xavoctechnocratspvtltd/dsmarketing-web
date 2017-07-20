@@ -64,6 +64,10 @@
     width:90px;
 }
 
+.ds-distributor-navbar .navbar-nav{
+    font-size: 12px;
+}
+
 .ds-distributor-navbar .nav.navbar-nav li.active{
     border-bottom: 3px solid #F05023;
     
