@@ -684,4 +684,12 @@
     width: 100% !important;
 }
 
+#ui-datepicker-div{
+    width:auto !important;
+}
+
+.ui-datepicker-calendar td{
+    padding: 1px !important;
+}
+
 /*----end-----*/
