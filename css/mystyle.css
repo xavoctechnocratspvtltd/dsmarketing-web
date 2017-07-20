@@ -660,3 +660,24 @@
     margin-bottom: 20px !important;
     text-align:right !important;
 }
+
+/*product detail page*/
+.ds-distributor-body .zoomContainer{
+    z-index: 1001 !important;
+}
+
+.ds-distributor-body .xshop-item-image-block{
+    width: 30% !important;
+    float: left;
+}
+
+.ds-distributor-body .xshop-item-image-block{
+    margin-right:5px !important;
+}
+
+.ds-distributor-body .xshop-item-image-block a,
+.ds-distributor-body .xshop-item-image-block img{
+    width: 100% !important;
+}
+
+/*----end-----*/
