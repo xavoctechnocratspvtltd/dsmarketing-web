@@ -25,15 +25,15 @@ jQuery(document).ready(function ($) {
     });
 
 
-// // slick slider active 
-//     $(".main_home_slider").slick({
-//         dots: false,
-//         infinite: true,
-//         slidesToShow: 1,
-//         slidesToScroll: 1,
-//         prevArrow:"<i class='fa fa-angle-left nextprevleft'></i>",
-//         nextArrow:"<i class='fa fa-angle-right nextprevright'></i>"
-//     });
+// slick slider active 
+    $(".main_home_slider").slick({
+        dots: false,
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        prevArrow:"<i class='fa fa-angle-left nextprevleft'></i>",
+        nextArrow:"<i class='fa fa-angle-right nextprevright'></i>"
+    });
 
 //    $(".study_slider").slick({
 //        dots: true,
@@ -84,34 +84,36 @@ jQuery(document).ready(function ($) {
         time: 2000
     });
 
-// // main-menu-scroll
+// main-menu-scroll
 
-//     jQuery(window).scroll(function () {
-//         var top = jQuery(document).scrollTop();
-//         var height = 300;
-//         //alert(batas);
+    // jQuery(window).scroll(function () {
+    //     var top = jQuery(document).scrollTop();
+    //     var height = 300;
+    //     //alert(batas);
 
-//         if (top > height) {
-//             jQuery('.navbar-fixed-top').addClass('menu-scroll');
-//         } else {
-//             jQuery('.navbar-fixed-top').removeClass('menu-scroll');
-//         }
-//     });
+    //     if (top > height) {
+    //         jQuery('.navbar-fixed-top').addClass('menu-scroll');
+    //     } else {
+    //         jQuery('.navbar-fixed-top').removeClass('menu-scroll');
+    //     }
+    // });
 
 // scroll Up
 
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 600) {
-            $('.scrollup').fadeIn('slow');
-        } else {
-            $('.scrollup').fadeOut('slow');
-        }
-    });
+    // $(window).scroll(function () {
+    //     if ($(this).scrollTop() > 600) {
+    //         $('.scrollup').fadeIn('slow');
+    //         alert($('.scrollup').fadeIn('slow'));
+    //     } else {
+    //         $('.scrollup').fadeOut('slow');
+    //         alert($('.scrollup').fadeOut('slow'));
+    //     }
+    // });
 
-    $('.scrollup').click(function () {
-        $("html, body").animate({scrollTop: 0}, 1000);
-        return false;
-    });
+    // $('.scrollup').click(function () {
+    //     $("html, body").animate({scrollTop: 0}, 1000);
+    //     return false;
+    // });
 
 
 // scrool Down
