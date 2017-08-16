@@ -1825,3 +1825,14 @@ li .single_team_text p{
     }
 
 }
+@media screen and (max-device-width: 980px) and (min-device-width: 320px) {
+    .single_study_text{
+        background: #fff;
+        position: absolute;
+        right:0;
+        top:85px;
+        width:100%;
+        z-index: 9;
+        padding: 5% 10%;
+    }
+}
