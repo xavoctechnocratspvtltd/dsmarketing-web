@@ -1832,10 +1832,7 @@ li .single_team_text p{
         top:85px;
         width:100%;
         z-index: 9;
-<<<<<<< HEAD
         padding: 5% 10%;
-=======
         padding: auto;
->>>>>>> 1602534f26ef3277e259cab7b165b50540a7d50c
-    }
+   }
 }
