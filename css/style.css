@@ -857,7 +857,7 @@ input::-ms-input-placeholder {
 }
 .main_service .single_service.single_service_text .single_service_right_text p{
     color:#999999;
-    font-family: 'source_sans_proregular';
+    font-family: "Nunito",sans-serif;
 }
 /*======================================================================
                     portfolio section css
@@ -883,7 +883,7 @@ button.btn-md {
     background-color: transparent;
     transition: .5s;
     border: 0px solid #e74c3c;
-    font-family: 'montserratregular';
+    font-family: "Nunito",sans-serif;
 }
 button.btn-md:hover {
     background-color: transparent;
