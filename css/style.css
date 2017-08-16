@@ -7,18 +7,17 @@ Author URI: http://bootstrapthemes.co
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-html,
-body {
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+html, body {
     background-color: #fff;
-    font-size: 14px;
     color: #797979;
-    width: 100%;
-    padding: 0;
+    font-family: "Nunito",sans-serif;
+    font-size: 16px;
+    font-weight: 300;
     margin-left: 0;
     margin-right: 0;
-    font-weight: 300;
-    width:100%;
-    font-family: 'ralewayregular';
+    padding: 0;
+    width: 100%;
 }
 .preloader {
     position: fixed;
@@ -1824,4 +1823,15 @@ li .single_team_text p{
         padding: 10px 15px;
     }
 
+}
+@media screen and (max-device-width: 980px) and (min-device-width: 320px) {
+    .single_study_text{
+        background: #fff;
+        position: absolute;
+        right:0;
+        top:85px;
+        width:100%;
+        z-index: 9;
+        padding: auto;
+    }
 }
