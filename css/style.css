@@ -1095,11 +1095,11 @@ button.btn-md:hover {
     box-shadow: 0px 0px 0px 10px rgba(244,245,249,0.3);
 }
 .pricing_head .pricing_price .p_r{
-    font-family: 'source_sans_probold';
+    font-family: "Nunito",sans-serif;
     font-size:2.822rem;
 }
 .pricing_head .pricing_price .m_t{
-    font-family: 'source_sans_proregular';
+    font-family: "Nunito",sans-serif;
     font-size:0.941rem;
 }
 .pricing_body{
@@ -1114,7 +1114,7 @@ button.btn-md:hover {
     line-height:45px;
     height:45px;
     font-size:18px;
-    font-family: 'open_sanssemibold';
+    font-family: "Nunito",sans-serif;
 }
 
 .single_pricing a{
@@ -1276,7 +1276,7 @@ li .single_team_text p{
     font-size:1rem;
 }
 .main_testimonial .single_testimonial .single_test_author h4 span{
-    font-family: 'ralewayregular'; 
+    font-family: "Nunito",sans-serif; 
 }
 .main_testimonial .single_testimonial .single_test_author p{
     color:#fff;
@@ -1370,11 +1370,11 @@ li .single_team_text p{
 }
 .contact_info_content h3{
     color:#e74e3e;
-    font-family: 'source_sans_prosemibold';
+    font-family: "Nunito",sans-serif;
     margin-bottom: 19px;
 }
 .contact_info_content h4{
-    font-family: 'open_sansregular';
+    font-family: "Nunito",sans-serif;
 }
 .contact_info_content h4{
     margin:0;
@@ -1401,13 +1401,13 @@ li .single_team_text p{
 }*/
 .main_trial h2{
     text-transform: none;
-    font-family: 'open_sansregular';
+    font-family:"Nunito",sans-serif;
 }
 .main_trial h2 span{
-    font-family: 'open_sansbold';
+    font-family: "Nunito",sans-serif;
 }
 .main_trial h4{
-    font-family: 'open_sansregular';
+    font-family: "Nunito",sans-serif;
     text-transform: none;
 }
 
