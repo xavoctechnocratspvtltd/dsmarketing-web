@@ -1835,4 +1835,8 @@ li .single_team_text p{
         padding: 5% 10%;
         padding: auto;
    }
+  .header{
+  	background-color: rgba(34, 61, 97, 0.64);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.176);
+  }
 }
