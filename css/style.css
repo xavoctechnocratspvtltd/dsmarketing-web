@@ -171,7 +171,7 @@ h3 {
     color:#fff;
 }
 h4 {
-    font-family: 'open_sanssemibold';
+    font-family: 'Nunito',sans-sarif;
     font-size: 1.286rem;
     line-height: 2rem;
     margin-bottom: 1rem;
@@ -1756,6 +1756,11 @@ li .single_team_text p{
     background: #222222;
     -webkit-transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
     transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.sections {
+    padding-bottom: 50px;
+    padding-top: 85px;
 }
 
 
