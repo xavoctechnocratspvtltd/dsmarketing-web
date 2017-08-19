@@ -1764,7 +1764,11 @@ li .single_team_text p{
 }
 
 
-
+.jquery-marquee-top, .jquery-marquee-bottom {
+            /*width: 200px;*/
+            height: 100px;
+            padding: 5px;
+        }
 
 
 
