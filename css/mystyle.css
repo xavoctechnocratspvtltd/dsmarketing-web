@@ -634,3 +634,90 @@ background-color:white;
 .footer1{
 margin-top:40px !important;
 }
+
+.xepan-form-control input,.xepan-form-control textarea,.xepan-form-control select {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #fff;
+    background-image: none;
+    border-color: #ccc #ccc #ddd;
+    border-image: none;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 0 0 2px;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0) inset;
+    color: #000;
+    display: inline-block;
+    font-size: 14px;
+    height: 38px;
+    line-height: 1.42857;
+    padding: 10px 2px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 100%;
+}
+
+.xepan-form-control textarea {
+    height: auto;
+}
+
+.xepan-form-control::-moz-placeholder {
+    color: #999;
+    opacity: 1;
+}
+
+
+.xepan-contact-form button{
+    border-radius: 6px;
+    font-size: 18px;
+    line-height: 1.33333;
+    padding: 10px 16px;
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    /*border-radius: 4px;*/
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    /*line-height: 1.42857;*/
+    margin-bottom: 0;
+    /*padding: 6px 12px;*/
+    text-align: center;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+
+.xepan-form-control1{
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #fff;
+    background-image: none;
+    border-color: #ccc #ccc #ddd;
+    border-image: none;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 0 0 2px;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0) inset;
+    color: #000;
+    display: inline-block;
+    font-size: 14px;
+    height: 38px;
+    line-height: 1.42857;
+    padding: 10px 2px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 100%;
+}
+
+ textarea.xepan-form-control1 {
+    height: auto;
+}
+
+.xepan-form-control1::-moz-placeholder {
+    color: #999;
+    opacity: 1;
+}
