@@ -734,3 +734,14 @@ margin-top:40px !important;
     color: #999;
     opacity: 1;
 }
+div[xepan-component='xavoc/mlm/Tool_ClosingAndPayouts'] table th{
+    text-align: center;
+}
+div[xepan-component='xavoc/mlm/Tool_ClosingAndPayouts'] table th,
+div[xepan-component='xavoc/mlm/Tool_ClosingAndPayouts'] table td{
+    border:1px solid #f0f0f0;
+}
+
+.atk-table{
+    overflow-x: scroll;
+}
