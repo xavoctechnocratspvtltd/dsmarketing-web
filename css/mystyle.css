@@ -783,3 +783,12 @@ div[xepan-component='xavoc/mlm/Tool_ClosingAndPayouts'] table td{
     background-size: 50px;
     height: 50px;
 }
+
+
+div[xepan-component-name="Register"] form textarea{
+    height: 50px;
+}
+div[xepan-component-name="Register"] form .atk-form-field.atk-form-row{
+    margin-bottom: 10px;
+} 
+
