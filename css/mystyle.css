@@ -745,3 +745,41 @@ div[xepan-component='xavoc/mlm/Tool_ClosingAndPayouts'] table td{
 .atk-table{
     overflow-x: scroll;
 }
+
+.mlm-member-panel-registration input,
+.mlm-member-panel-registration textarea,
+.mlm-member-panel-registration select,
+.mlm-member-panel-registration select option
+{
+    text-transform: uppercase;
+    width: 100% !important;
+}
+
+.mlm-member-panel-registration input[data-shortname="email"]{
+    text-transform: none !important;
+}
+
+.ds-distributor-body li.select2-results__option{
+    font-size: 12px;
+    padding: 3px;
+}
+
+
+/*icon class*/
+.ds-icon-success{
+    background:url("../img/ds_green_icon.png") no-repeat center;
+    background-size: 50px;
+    height: 50px;
+}
+
+.ds-icon-danger{
+    background:url("../img/ds_red_icon.png") no-repeat center;
+    background-size: 50px;
+    height: 50px;
+}
+
+.ds-icon-gray{
+    background:url("../img/ds_gray_icon.png") no-repeat center;
+    background-size: 50px;
+    height: 50px;
+}
