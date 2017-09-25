@@ -795,3 +795,7 @@ div[xepan-component-name="Register"] form .atk-form-field.atk-form-row{
 .color-red{
     color:red;
 }
+
+.mlm-gallery-category .thumbnail{
+    cursor: pointer;
+}
