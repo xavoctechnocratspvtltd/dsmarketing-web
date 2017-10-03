@@ -799,3 +799,9 @@ div[xepan-component-name="Register"] form .atk-form-field.atk-form-row{
 .mlm-gallery-category .thumbnail{
     cursor: pointer;
 }
+
+
+.tooltip.fade .tooltip-inner {
+    width:  250px !important;
+    max-width: 250px !important;
+} 
