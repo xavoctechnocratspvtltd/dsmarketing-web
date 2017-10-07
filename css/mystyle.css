@@ -799,3 +799,23 @@ div[xepan-component-name="Register"] form .atk-form-field.atk-form-row{
 .mlm-gallery-category .thumbnail{
     cursor: pointer;
 }
+
+
+.tooltip.fade .tooltip-inner{
+    width:  250px !important;
+    max-width: 250px !important;
+}
+
+/*.ui-tooltip,
+.tooltipdetail-generation {
+    width: 300px !important;
+    max-width: 300px !important;
+}*/
+
+div[xepan-component="xavoc/mlm/Tool_MyOrder"] table td{
+    text-align: left !important;
+}
+
+.lister_expander_parent{
+    font-weight: bold;
+}
