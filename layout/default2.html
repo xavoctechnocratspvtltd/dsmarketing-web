@@ -31,10 +31,10 @@
     </script>
     xEpan-ATK-Header-End-->
 </head>
-<body data-spy="scroll" data-target=".navbar-collapse xepan-body">
+<body data-spy="scroll" data-target=".navbar-collapse xepan-body" style="cursor: default;"><div class="xepan-v-body xepan-component" id="xepan-6cfcc8b1-3536-4ec6-aac2-d77b1f3fd5e2">
 <!-- <<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">div class='preloader'><div class='loaded'>&nbsp;</div></div> -->
     <div class="culmn">
-  <header id="main_menu" class="header navbar-fixed-top menu-scroll xepan-component" xepan-component="xepan/cms/Tool_BootStrapMenu" scrollamount=""><div class="main_menu_bg">
+  <header id="main_menu" class="header navbar-fixed-top menu-scroll xepan-component" xepan-component="xepan/cms/Tool_BootStrapMenu" scrollamount="" text-color=""><div class="main_menu_bg">
                     <div class="container">
                         <div class="row">
                             <div class="nave_menu">
@@ -61,12 +61,14 @@
                                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
                                             <ul class="nav navbar-nav navbar-right">
-<li><a href="?page=index">Home</a></li>
-<li><a href="?page=about">About Us</a></li>
-<li><a href="?page=knowledge">Knowledge</a></li>
-<li><a href="?page=product">Products</a></li>
-<li><a href="?page=contact">Contact Us</a></li>
-<li><a href="?page=login">Sign In</a></li>
+<li><a href="index">Home</a></li>
+<li><a href="about">About Us</a></li>
+<li><a href="knowledge">Knowledge</a></li>
+<li><a href="product">Products</a></li>
+<li><a href="contact">Contact Us</a></li>
+<li><a href="login">Sign In</a></li>
+<li><a href="/?page=galleries&amp;type=gallery"><i class=""></i> Gallery</a></li>
+<li><a href="/?page=galleries&amp;type=download"><i class=""></i> Download</a></li>
 </ul>
 </div>
 
@@ -78,12 +80,12 @@
                     </div>
 
                 </div>
-            </header><div id="57a2d9d6-f2cf-4b86-9b98-d84174cb162e" xepan-component="xepan/cms/Tool_TemplateContentRegion" emptytext="Page Content" class="xepan-component xepan-page-wrapper ui-sortable" style="min-height: 200px; margin-top: 60px;" scrollamount="">{$Content}</div>
+            </header><div id="57a2d9d6-f2cf-4b86-9b98-d84174cb162e" xepan-component="xepan/cms/Tool_TemplateContentRegion" emptytext="Page Content" class="xepan-component xepan-page-wrapper ui-sortable" style="min-height: 200px; margin-top: auto; padding-top: 0%;" scrollamount="" text-color="">{$Content}</div>
 </div>
 
 <!-- START SCROLL TO TOP  -->
 
-        <div class="scrollup">
+        <div class="scrollup" style="display: none;">
             <a href="#"><i class="fa fa-chevron-up"></i></a>
         </div>
 
@@ -107,7 +109,7 @@
 
                                     <div class="col-sm-6 col-xs-12">
                                         <div class="copyright_text">
-                                            <p class="wow fadeInRight xepan-component  xepan-no-delete xepan-no-move xepan-no-richtext xepan-editable-text animated animated animated animated" data-wow-duration="1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInRight;" id="4f4497c6-12ef-41a7-fea2-63ce358e2c5e" contenteditable="false">Made with  by <a href="http://epan.in" target="_epan" class="xepan-component  xepan-no-delete xepan-no-move xepan-no-richtext xepan-editable-text" id="f34219c8-6736-4419-e171-2767b4f22e9a" contenteditable="false">Epan ERP</a>2017. All Rights Reserved</p>
+                                            <p class="wow fadeInRight xepan-component  xepan-no-delete xepan-no-move xepan-no-richtext xepan-editable-text animated animated animated animated animated animated" data-wow-duration="1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInRight;" id="4f4497c6-12ef-41a7-fea2-63ce358e2c5e" contenteditable="false">Made with  by <a href="http://epan.in" target="_epan" class="xepan-no-delete xepan-no-move xepan-no-richtext xepan-editable-text" id="f34219c8-6736-4419-e171-2767b4f22e9a" contenteditable="false">Epan ERP</a>2017. All Rights Reserved</p>
                                         </div>
                                     </div>
                                 </div>
@@ -128,33 +130,7 @@
         $("html, body").animate({scrollTop: 0}, 1000);
         return false;
     });
-</script><script type="text/javascript" style="">
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 600) {
-            $('.scrollup').fadeIn('slow');
-        } else {
-            $('.scrollup').fadeOut('slow');
-        }
-    });
-
-    $('.scrollup').click(function () {
-        $("html, body").animate({scrollTop: 0}, 1000);
-        return false;
-    });
 </script>
+</div>
 </body>
-<script type="text/javascript">
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 600) {
-            $('.scrollup').fadeIn('slow');
-        } else {
-            $('.scrollup').fadeOut('slow');
-        }
-    });
-
-    $('.scrollup').click(function () {
-        $("html, body").animate({scrollTop: 0}, 1000);
-        return false;
-    });
-</script>
 </html>
