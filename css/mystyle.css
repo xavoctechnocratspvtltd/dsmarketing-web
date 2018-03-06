@@ -819,3 +819,7 @@ div[xepan-component="xavoc/mlm/Tool_MyOrder"] table td{
 .lister_expander_parent{
     font-weight: bold;
 }
+
+.form-size input, .form-size textarea{
+  width:90%;
+}
